@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpUdpClient", "TcpUdpClient\TcpUdpClient.csproj", "{FA4E15D1-AD96-4E39-A4C6-99235BF104F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA4E15D1-AD96-4E39-A4C6-99235BF104F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4E15D1-AD96-4E39-A4C6-99235BF104F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4E15D1-AD96-4E39-A4C6-99235BF104F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4E15D1-AD96-4E39-A4C6-99235BF104F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E387F0E2-6201-46F4-ADE4-5877171B677D}
+	EndGlobalSection
+EndGlobal
