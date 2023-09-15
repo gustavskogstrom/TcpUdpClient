@@ -2,22 +2,22 @@
 
 Client client = new Client();
 
-string udpMsg = "UDP Fungerar";
-string tcpMsg = "TCP Fungerar";
+string udpMessage = "UDP Fungerar";
+string tcpMessage = "TCP Fungerar";
 
-Console.WriteLine("1 - Starta TCP message");
-Console.WriteLine("2 - Starta UDP message");
+Console.WriteLine("1 - Starta TCP server");
+Console.WriteLine("2 - Starta UDP server");
 
 var input = Console.ReadLine();
 
 
 if (input == "1")
 {
-    client.SendTcpMessage(tcpMsg);
+    client.SendTcpMessage(tcpMessage);
 }
 else if (input == "2")
 {
-    client.SendUdpMessage(udpMsg);
+    client.SendUdpMessage(udpMessage);
 }
 
 Console.ReadKey();
